@@ -28,7 +28,7 @@ RUN yarn install --frozen-lockfile
 RUN yarn bootstrap
 
 # HERE ADD YOUR STORE WALLET ADDRESS
-ENV REACT_APP_STORE_OWNER_ADDRESS_ADDRESS=www.socialpack.io/mint
+ENV REACT_APP_STORE_OWNER_ADDRESS_ADDRESS=socialpack.io/mint
 
 # Generate the build of the application
 RUN yarn build
